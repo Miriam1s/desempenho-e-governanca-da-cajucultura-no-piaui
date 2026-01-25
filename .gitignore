@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dados grandes / sensíveis
+data/raw/CLIMA_2000_2025/
+*.xlsx
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Ambiente
+.env
+.venv
