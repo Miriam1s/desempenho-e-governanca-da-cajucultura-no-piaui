@@ -20,7 +20,7 @@ Medir a eficiência econômica territorial;
 
 Discutir implicações para gestão produtiva e políticas públicas agrícolas.
 
-🗂 Estrutura do Projeto
+ Estrutura do Projeto
 
 
 Cajucultura/
