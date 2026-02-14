@@ -7,22 +7,15 @@ Objetivo Geral
 Analisar o desempenho da cajucultura no estado do Piauí, considerando:
 
 Dinâmica produtiva ao longo da série histórica (1974–2024);
-
 Estrutura territorial da produção;
-
 Eficiência econômica municipal;
-
 Relação entre escala produtiva e valor gerado;
-
 Implicações administrativas e institucionais para políticas públicas.
 
 Objetivos Específicos
 Avaliar a evolução da produção estadual de castanha de caju;
-
 Identificar o grau de concentração produtiva municipal;
-
 Investigar a relação entre produção física e valor econômico gerado;
-
 Medir a eficiência econômica territorial;
 
 Discutir implicações para gestão produtiva e políticas públicas agrícolas.
@@ -31,24 +24,24 @@ Discutir implicações para gestão produtiva e políticas públicas agrícolas.
 
 
 Cajucultura/
-│
-├── dados/
-│   ├── pam_estadual.csv
-│   ├── producao_municipal.csv
-│   ├── concentracao_municipal.csv
-│   └── eficiencia_municipal.csv
-│
-├── cadernos/
-│   ├── 01_contexto_estadual.ipynb
-│   ├── 02_ranking_municipal.ipynb
-│   ├── 03_eficiencia_municipal.ipynb
-│   ├── 04_gestao_e_politicas.ipynb
-│   └── 05_consolidacao_estrategica.ipynb
-│
-├── figuras/
-│
-├── requisitos.txt
-└── README.md
+  │
+  ├── dados/
+  │   ├── pam_estadual.csv
+  │   ├── producao_municipal.csv
+  │   ├── concentracao_municipal.csv
+  │   └── eficiencia_municipal.csv
+  │
+  ├── cadernos/
+  │   ├── 01_contexto_estadual.ipynb
+  │   ├── 02_ranking_municipal.ipynb
+  │   ├── 03_eficiencia_municipal.ipynb
+  │   ├── 04_gestao_e_politicas.ipynb
+  │   └── 05_consolidacao_estrategica.ipynb
+  │
+  ├── figuras/
+  │
+  ├── requisitos.txt
+  └── README.md
 
 Metodologia
 
@@ -95,7 +88,7 @@ Principais Achados
 - Existência de municípios com alta eficiência econômica e baixa produção absoluta;
 - Indícios de concentração institucional e dependência de poucos polos estruturados.
 
-🏛 Contribuições
+Contribuições
 
 Este estudo contribui para:
 
@@ -104,7 +97,7 @@ Este estudo contribui para:
 - A formulação de políticas públicas agrícolas baseadas em evidências quantitativas;
 - A gestão estratégica territorial da cajucultura.
 
-📚 Base de Dados
+ Base de Dados
 
 Os dados utilizados são provenientes da:
 
@@ -115,7 +108,7 @@ Disponível em: https://www.ibge.gov.br
 Período analisado: 1974–2024
 Recorte espacial: Estado do Piauí
 
-🛠 Tecnologias Utilizadas
+Tecnologias Utilizadas
 
 Python
 Pandas
@@ -123,12 +116,12 @@ NumPy
 Matplotlib
 Jupyter Notebook
 
-👩‍💻 Autoria
+Autoria
 
 Miriam1s
 Pesquisa na área de Administração, Gestão e Políticas Públicas
 Foco em Análise de Dados Aplicada ao Desenvolvimento Regional
 
-📄 Licença
+ Licença
 
 Este projeto possui finalidade acadêmica e científica.
