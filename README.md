@@ -1,128 +1,134 @@
-Análise Estrutural da Cajucultura no Estado do Piauí
-Produção, Concentração, Eficiência Econômica e Implicações Estratégicas (1974–2024)
- Sobre o Projeto
+Desempenho e Governança da Cajucultura no Piauí
 
-Este repositório apresenta uma análise quantitativa e institucional da cajucultura no estado do Piauí, utilizando dados da Pesquisa Agrícola Municipal (PAM/IBGE) no período de 1974 a 2024.
+Análise quantitativa e territorial da produção de castanha de caju no estado do Piauí, com ênfase em concentração produtiva, eficiência econômica municipal e implicações para gestão e políticas públicas.
 
-O estudo investiga:
-
-- Evolução histórica da produção;
-- Concentração territorial;
-- Desempenho econômico municipal;
-- Eficiência produtiva;
-- Evidências indiretas de governança e políticas públicas;
-- Implicações estratégicas para o desenvolvimento regional.
-
-A pesquisa integra análise estatística, visualização de dados e interpretação institucional, com ênfase em gestão da cadeia produtiva.
-
-Objetivos
 Objetivo Geral
 
-Analisar o desempenho da cajucultura no estado do Piauí, considerando sua dinâmica produtiva, estrutura territorial, eficiência econômica e implicações administrativas.
+Analisar o desempenho da cajucultura no estado do Piauí, considerando:
+
+Dinâmica produtiva ao longo da série histórica (1974–2024);
+
+Estrutura territorial da produção;
+
+Eficiência econômica municipal;
+
+Relação entre escala produtiva e valor gerado;
+
+Implicações administrativas e institucionais para políticas públicas.
 
 Objetivos Específicos
+Avaliar a evolução da produção estadual de castanha de caju;
 
-- Avaliar a evolução da produção ao longo da série histórica;
-- Identificar concentração produtiva municipal;
-- Investigar a relação entre produção física e valor gerado;
-- Avaliar eficiência econômica territorial;
-- Discutir implicações para políticas públicas e gestão da cadeia.
+Identificar o grau de concentração produtiva municipal;
 
-Estrutura do Projeto
+Investigar a relação entre produção física e valor econômico gerado;
+
+Medir a eficiência econômica territorial;
+
+Discutir implicações para gestão produtiva e políticas públicas agrícolas.
+
+🗂 Estrutura do Projeto
+
+
 Cajucultura/
 │
 ├── dados/
 │   ├── pam_estadual.csv
 │   ├── producao_municipal.csv
 │   ├── concentracao_municipal.csv
-│   ├── eficiencia_municipal.csv
+│   └── eficiencia_municipal.csv
 │
 ├── cadernos/
 │   ├── 01_contexto_estadual.ipynb
-│   ├── 02_ranking_estadual.ipynb
+│   ├── 02_ranking_municipal.ipynb
 │   ├── 03_eficiencia_municipal.ipynb
 │   ├── 04_gestao_e_politicas.ipynb
-│   ├── 05_consolidacao_estrategica.ipynb
+│   └── 05_consolidacao_estrategica.ipynb
 │
 ├── figuras/
 │
-├── requirements.txt
+├── requisitos.txt
 └── README.md
 
 Metodologia
 
-O estudo foi estruturado em cinco blocos analíticos:
+O estudo foi estruturado em cinco blocos analíticos complementares:
 
-** Caderno 01 — Contexto Estadual
+Caderno 01 — Contexto Estadual
 
-Série histórica (1974–2024)
-Evolução da produção e valor
-Relação produção × produtividade
+Série histórica da produção (1974–2024);
+Evolução do valor da produção;
+Analise da produtividade média.
 
-** Caderno 02 — Concentração Territorial
+Caderno 02 — Estrutura Territorial
 
-Curva de concentração
-Ranking municipal
-Identificação de polos produtivos
+Curva de concentração produtiva;
+Identificação dos principais municípios produtores;
+Evidências de assimetria espacial.
 
-** Caderno 03 — Eficiência Econômica
+Caderno 03 — Eficiência Econômica Municipal
 
-Valor por hectare
-Ranking cruzado produção × eficiência
-Análise de outliers
+Valor gerado por unidade produzida;
 
-** Caderno 04 — Gestão e Políticas Públicas
+Valor por hectare;
 
-Tipologia econômica municipal
-Desalinhamento estrutural
-Evidências institucionais indiretas
+Identificação de municípios eficientes fora dos polos produtivos.
 
-** Caderno 05 — Consolidação Analítica
+Caderno 04 — Gestão e Políticas Públicas
 
-Integração dos resultados
-Comparação interestadual (PI, CE, RN)
-Implicações estratégicas
-Recomendações administrativas
+Classificação tipológica dos municípios (volume × valor);
+Gap entre escala produtiva e eficiência;
+Indícios de assimetrias institucionais;
+Evidências indiretas de efeitos de políticas públicas.
 
-Principais Resultados
+Caderno 05 — Consolidação Estratégica
 
-- Aproximadamente 20% dos municípios concentram cerca de 80% da produção estadual;
-- 28,4% dos municípios apresentam desalinhamento entre produção e valor econômico;
-- Diferenças superiores a 60 posições entre ranking produtivo e ranking de eficiência;
-- Forte heterogeneidade territorial;
-- Indícios de fragilidade na governança da cadeia produtiva.
+Integração dos resultados;
+Comparação regional (Piauí × Ceará × Rio Grande do Norte);
+Implicações administrativas e recomendações estratégicas.
 
-Contribuição Científica
+Principais Achados
 
-Este estudo demonstra empiricamente que:
+- Forte volatilidade produtiva ao longo da série histórica;
+- Elevada concentração territorial (aproximadamente 20% dos municípios concentram cerca de 80% da produção);
+- Ausência de correlação linear forte entre escala produtiva e eficiência econômica;
+- Existência de municípios com alta eficiência econômica e baixa produção absoluta;
+- Indícios de concentração institucional e dependência de poucos polos estruturados.
 
-- Escala produtiva não garante eficiência econômica;
-- A captura de valor depende de governança e inserção na cadeia;
-- A cajucultura piauiense apresenta estrutura territorial concentrada;
-- Políticas públicas focadas apenas em expansão produtiva são insuficientes.
+🏛 Contribuições
 
-Tecnologias Utilizadas
+Este estudo contribui para:
 
-Python 3.11
+- A literatura sobre concentração produtiva e desenvolvimento regional;
+- A análise da governança de cadeias agroindustriais no Nordeste;
+- A formulação de políticas públicas agrícolas baseadas em evidências quantitativas;
+- A gestão estratégica territorial da cajucultura.
+
+📚 Base de Dados
+
+Os dados utilizados são provenientes da:
+
+Pesquisa Agrícola Municipal (PAM/IBGE)
+Instituto Brasileiro de Geografia e Estatística
+Disponível em: https://www.ibge.gov.br
+
+Período analisado: 1974–2024
+Recorte espacial: Estado do Piauí
+
+🛠 Tecnologias Utilizadas
+
+Python
 Pandas
 NumPy
 Matplotlib
 Jupyter Notebook
-VS Code
 
-Base de Dados
-IBGE – Pesquisa Agrícola Municipal (PAM)
-Dados municipais (1974–2024)
+👩‍💻 Autoria
 
-Referências
+Miriam1s
+Pesquisa na área de Administração, Gestão e Políticas Públicas
+Foco em Análise de Dados Aplicada ao Desenvolvimento Regional
 
-IBGE – Pesquisa Agrícola Municipal (PAM)
-EMBRAPA – Cadeia produtiva do caju
-Buainain et al. (2014) – Desenvolvimento rural no Brasil
-Gereffi et al. (2005) – Cadeias globais de valor
-Porter (1998) – Clusters e competitividade regional
+📄 Licença
 
-
-Miriam dos Santos Lopes
-Graduanda em Administração e Analista de dados
-Área de concentração: Gestão, Desenvolvimento Regional e Cadeias Produtivas, Agro.
+Este projeto possui finalidade acadêmica e científica.
