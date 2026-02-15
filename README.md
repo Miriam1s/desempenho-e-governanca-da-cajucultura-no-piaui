@@ -114,7 +114,7 @@ Python
 Pandas
 NumPy
 Matplotlib
-Jupyter Notebook
+**Jupyter Notebook
 
 Autoria
 
